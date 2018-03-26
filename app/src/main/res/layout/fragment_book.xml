@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abdullahshah.chatroughdraftnew.Fragments.BookFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="55dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/raleway"
+                android:text="@string/first_section"
+                android:textSize="18dp"/>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/raleway"
+                android:text="@string/depression_definition"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/raleway"
+                android:layout_marginTop="10dp"
+                android:text="What Causes Depression?"
+                android:textSize="18dp"/>
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/raleway"
+                android:text="No one knows exactly what causes depression. It is clear that genetic factors are important in many cases of depression. \n\nDepression seems to run in families (as do other mood disorders), and about 30% of the predisposition for depression is due to genetic influences.
+
+Stressful life events play a part in the onset or relapse of depression. Ongoing conflicts with others can take their toll on our well-being, as can other social and environmental stressors such as financial difficulties, retirement, unemployment, childbirth, loneliness, or loss of someone or something important. In vulnerable people, these unpleasant life events may be enough to cause or worsen a depressive illness.
+
+\n\nA person’s personality characteristics are an important factor. When people are depressed, they usually have a very negative view of themselves and the world. They do not appreciate good things, and bad things seem overwhelming. Some people have a tendency to view things this way even when they are not depressed. In other words, they may have a depressive personality style.
+
+\n\nAnother possible cause of depression that should not be overlooked is physical illness or medications. Glandular fever, influenza, hepatitis, thyroid hormones, anaemia, diabetes, birth control pills, alcohol and other substances of abuse, or other medications such as those for heart or blood pressure conditions, may all cause symptoms of depression."
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/raleway"
+                android:text="Duas for Depression"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"/>
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/raleway"
+                android:layout_marginTop="10dp"
+                android:text="‘O Allaah, I am Your servant, son of Your servant, son of Your maidservant, my forelock is in Your hand, Your command over me is forever executed and Your decree over me is just. I ask You by every name belonging to You which You name Yourself with, or revealed in Your Book, or You taught to any of Your creation, or You have preserved in the knowledge of the unseen with You, that You make the Qur’aan the life of my heart and the light of my breast, and a departure for my sorrow and a release for my anxiety.’"
+                android:textSize="15dp"/>
+
+
+            <TextView
+                android:id="@+id/textVie5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/raleway"
+                android:layout_marginTop="35dp"
+                android:text="Source from MayoClinic.org and ProductiveMuslim.com"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

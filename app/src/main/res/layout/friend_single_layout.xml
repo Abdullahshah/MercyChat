@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/friend_list_image"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/default_profile" />
+
+    <TextView
+        android:id="@+id/friend_list_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/friend_list_image"
+        android:layout_marginStart="18dp"
+        android:layout_toEndOf="@+id/friend_list_image"
+        android:text="First Name Last Name"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/friend_list_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/friend_list_name"
+        android:layout_below="@+id/friend_list_name"
+        android:layout_marginTop="8dp"
+        android:text="user default status" />
+
+    <ImageView
+        android:id="@+id/friend_list_online"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignEnd="@+id/friend_list_image"
+        android:layout_below="@+id/friend_list_status"
+        app:srcCompat="@color/green"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

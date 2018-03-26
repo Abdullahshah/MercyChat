@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/message_single_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:weightSum="10">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/community_profile_image"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_weight="0"
+        android:src="@drawable/ic_forum_startblue_24dp" />
+
+    <TextView
+        android:id="@+id/community_description_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/community_title_layout"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/community_profile_image"
+        android:fontFamily="@font/raleway"
+        android:padding="0dp"
+        android:text="Message Text"
+        android:textColor="#444444"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/community_title_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/community_profile_image"
+        android:text="Display Name"
+        android:fontFamily="@font/raleway"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_book"
+        android:title="Book"
+        android:icon="@drawable/ic_view_headline_black_24dp"/>
+    <item
+        android:id="@+id/nav_look_up"
+        android:title="Search"
+        android:icon="@drawable/ic_search_black_24dp"/>
+    <item
+        android:id="@+id/nav_feed"
+        android:title="Feed"
+        android:icon="@drawable/ic_whatshot_black_24dp"/>
+    <item
+        android:id="@+id/nav_messages"
+        android:title="Chat"
+        android:icon="@drawable/ic_chat_black_24dp"/>
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_portrait_black_24dp"/>
+</menu>

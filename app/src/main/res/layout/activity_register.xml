@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abdullahshah.chatroughdraftnew.RegisterActivity"
+    android:orientation="vertical"
+    android:background="@color/azur">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview_registeractivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="Sign Up"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/fusername_ET"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edittextstyle"
+                android:drawableLeft="@drawable/ic_person_startblue_24dp"
+                android:drawableStart="@drawable/ic_person_startblue_24dp"
+                android:hint="First Name" />
+
+            <EditText
+                android:id="@+id/Lusername_ET"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edittextstyle"
+                android:drawableLeft="@drawable/ic_person_startblue_24dp"
+                android:drawableStart="@drawable/ic_person_startblue_24dp"
+                android:hint="Last Name" />
+
+            <EditText
+                android:id="@+id/username_ET"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edittextstyle"
+                android:drawableLeft="@drawable/ic_person_startblue_24dp"
+                android:drawableStart="@drawable/ic_person_startblue_24dp"
+                android:hint="Username" />
+
+            <EditText
+                android:id="@+id/email_ET"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edittextstyle"
+                android:drawableLeft="@drawable/ic_email_startblue_24dp"
+                android:drawableStart="@drawable/ic_email_startblue_24dp"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/password_ET"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edittextstyle"
+                android:drawableLeft="@drawable/ic_lock_outline_startblue_24dp"
+                android:drawableStart="@drawable/ic_lock_outline_startblue_24dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/signupBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonstyle"
+                android:text="Sign Up"
+                android:textColor="@color/colorWhite" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp"
+                android:background="@color/endblue"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/RegisterAnnotation"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

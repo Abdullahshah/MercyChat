@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1058286967219",
+    "firebase_url": "https://chatroughdraftnew.firebaseio.com",
+    "project_id": "chatroughdraftnew",
+    "storage_bucket": "chatroughdraftnew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058286967219:android:98a4ce7580375995",
+        "android_client_info": {
+          "package_name": "com.example.abdullahshah.chatroughdraftnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058286967219-58379h8pp0trjn31iqvp6nvdchqvtlaf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abdullahshah.chatroughdraftnew",
+            "certificate_hash": "f69711145805156e3afb18de70a0b260896b3650"
+          }
+        },
+        {
+          "client_id": "1058286967219-38a8mot7q7rjun90ctaavntrdfjk5lnd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFqb2YD7phf2KbbLH3RmVAcjIs1zM06Fs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058286967219-38a8mot7q7rjun90ctaavntrdfjk5lnd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
